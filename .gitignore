@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+./Linq_Nullable_Dyanmic-Solu/Linq_Nullable_Dyanmic-Pj/bin/
+./Linq_Nullable_Dyanmic-Solu/Linq_Nullable_Dyanmic-Pj/obj/
+./Linq_Nullable_Dyanmic-Solu/.vs/
+./Linq_Nullable_Dyanmic-Solu/.vscode/
+
 # User-specific files
 *.suo
 *.user
