@@ -2,6 +2,8 @@
 using System.Linq;
 using System.Threading;
 using Linq_Nullable_Dynamic_Pj.LinqClasses;
+using Linq_Nullable_Dynamic_Pj.NullableClasses;
+using Linq_Nullable_Dynamic_Pj.Dynamic;
 
 namespace Linq_Nullable_Dynamic_Pj
 {
@@ -35,7 +37,25 @@ namespace Linq_Nullable_Dynamic_Pj
                 Console.WriteLine($"Book: {l3b.Title} -- Price: {l3b.Price}.");
             }
 
+            // common Linq-Expression
+            /* BookList.Add();
+            BookList.AddRange();
+            BookList.Aggregate();
+            BookList.Find();
+            BookList.FindIndex();
+            BookList.FindLast();
+            BookList.ElementAtOrDefault();
+            BookList.First(); || BookList.FirstOrDefault();
+            BookList.Last(); || BookList.LastOrDefault();
+            BookList.Single(); || BookList.SingleOrDefault();
 
+            BookList.Min(); || BookList.Max(); || BookList.Count(); || BookList.Sum(); ||BookList.Average();
+
+            BookList.Skip().Take(); */
+
+            // Nullable now...
+            Nullable_Ops.ShowNullableDates();
+            DyanmicVariables.ShowDynamicVariables();
 
             Exist exi = new Exist();
             exi.ExistByEnter();
